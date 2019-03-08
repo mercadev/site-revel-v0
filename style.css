@@ -1,0 +1,267 @@
+:root {
+--m-orange: #fe8e00;
+--m-light-green: #14b095;
+--m-dark-green: #055046;
+--m-light-blue: #0990d4;
+--m-dark-blue: #133d78;
+}
+
+@font-face {
+font-family: "Avenir";
+src: url('fonts/AvenirLTStd-Medium.otf');
+}
+@font-face {
+font-family: "Moon";
+src: url('fonts/Moon2.0-Regular.otf');
+}
+
+body {
+font-family: "Avenir";
+}
+
+h5{
+font-size: 16px;
+color: #000;
+text-transform: uppercase;
+}
+p{ 
+font-size: 16px;}
+
+a{
+color: black;
+}
+
+a:hover, a:focus{
+color: #9d833e;
+}
+
+.navbar-fixed-top.scrolled {
+background-color: black;
+transition: background-color 200ms linear;
+}
+
+.navbar-brand{
+margin-bottom: 1%;
+}
+
+.nav-container{
+border-bottom:  2px solid white;
+display: flex;
+align-content: space-between;
+width: 100%;
+margin-right: 10%;
+margin-left: 10%;
+}
+
+.navbar.navbar-expand-lg.navbar-light.navbar-fixed-top.fixed-top{
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+color: white;
+width: 100%;
+}
+
+#title-revel{
+	color: white;
+	font-size: 3rem;
+}
+
+.navbar-brand {
+    padding-top:0;
+    padding-bottom:0;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+margin-bottom: 0;}
+
+#navbarDropdownMenuLink{
+	color: white;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: black;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: white;
+    border: 0;
+}
+
+.nav-item .dropdown-menu.show{
+	background-color: white;
+	padding: 2px;
+}
+
+    .dropdown-item:hover {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: black;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: white;
+    border-bottom:  2px solid black;
+ 
+}
+.btn-primary {
+background-color:var(--m-light-green);
+border-color: var(--m-light-green);
+}
+
+/*.carousel-item {
+height: 80vh;
+min-height: 350px;
+background: no-repeat center center scroll;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-position: 50% 15%;
+color: #fff;
+text-shadow: 2px 2px 8px black;
+}*/
+
+/*.display-4{
+text-transform: uppercase;
+font-size: 65px;
+}
+
+#mercadev {
+font-family: Moon;
+font-size: 70px;
+font-weight: bold;
+letter-spacing: 10px;
+}
+
+.lead{ 
+font-size: 22px;
+}
+
+.carousel-caption {
+position: absolute;
+/*    right: 15%;*/
+/*bottom: 30%;
+left: 15%;
+z-index: 10;
+padding-top: 20px;
+padding-bottom: 20px;
+color: #fff;
+text-align: center;
+
+}
+
+#item-3 {
+background-position: 50% 28%;
+}*/
+
+.row{
+display: flex;
+flex-wrap: wrap;
+margin-right: -15px;
+margin-left: -15px;
+margin-bottom: 4%;
+margin-left: auto;
+margin-right: auto;
+align-content: center;
+width: 100%;
+}
+
+/*#carouselExampleIndicators{
+margin-bottom: 3%;
+}*/
+
+#separate-content{
+margin-bottom: 4%;
+justify-content: center;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+
+#title-footer {
+color: black;
+}
+
+#logo-bar-footer{
+color: black;
+margin-right: 2rem;
+}
+
+.top-image {
+height: 10%;
+min-height: 350px;}
+
+#legal-text{
+margin-top: 2%;
+margin-bottom: 2%;
+margin-left: 4%;
+margin-right: 4%;
+text-align: left;
+}
+
+#map{
+margin-top: 4%;
+margin-bottom: 4%;
+}
+
+.btn-form-row{
+justify-content: center;
+width: 40%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.footer-bar{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+border-bottom: 2px solid black;
+border-top:2px solid black;
+color: black
+height: auto;
+padding-left: 3%;
+padding-right: 3%;
+}
+
+.logo-footer-content{
+margin-left: 3%;
+}
+
+hr {
+border-top: 2px solid #9d833e;
+;}
+
+#contact-job{
+margin-bottom: 2px;
+}
+
+hr-job {
+border-top: 1px solid #9d833e;
+height: 0.5rem;
+margin-bottom: 0.5rem;}
+
+#infos-contact{
+height: 40px;
+}
+
+#contact-mail{
+color: var(--m-orange);
+text-decoration: underline;
+}
+
+.pb-3, .py-3 {
+    padding-bottom: 0 !important;}
+
+#design-by{
+	margin-bottom: 2%;
+}
