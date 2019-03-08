@@ -163,6 +163,26 @@ text-align: center;
 background-position: 50% 28%;
 }*/
 
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;}
+
+    .navbar-toggler {
+     margin-top: .2rem;
+     margin-bottom:.2rem;
+    padding: .2rem .2rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: white;
+    border: 1px solid white;}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .row{
 display: flex;
 flex-wrap: wrap;
