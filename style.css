@@ -33,6 +33,7 @@ color: black;
 
 a:hover, a:focus{
 color: #9d833e;
+text-decoration: none;
 }
 
 .navbar-fixed-top.scrolled {
