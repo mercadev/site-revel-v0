@@ -53,6 +53,12 @@ margin-right: 10%;
 margin-left: 10%;
 }
 
+.navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;}
+
 .navbar.navbar-expand-lg.navbar-light.navbar-fixed-top.fixed-top{
 	text-transform: uppercase;
 	width: 100%;
