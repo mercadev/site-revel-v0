@@ -322,6 +322,15 @@ margin-left: auto;
 margin-right: auto;
 }
 
+.container {
+    width: 90%;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .footer-bar{
 display: flex;
 flex-direction: row;
