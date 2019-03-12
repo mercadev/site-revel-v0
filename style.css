@@ -7,16 +7,26 @@
 }
 
 @font-face {
-font-family: "Avenir";
-src: url('fonts/AvenirLTStd-Medium.otf');
+font-family: "DIN";
+src: url('fonts/DINAlternate-Bold.ttf');
 }
+
+@font-face {
+font-family: "Helvetica";
+src: url('fonts/Helvetica.ttf');
+}
+
 @font-face {
 font-family: "Essonnes";
 src: url('fonts/EssonnesHeadline-Regular.otf');
 }
 
 body {
-font-family: "Avenir";
+font-family: "Helvetica";
+}
+
+h1, h2, h3, h4, h5, h6{
+font-family: DIN
 }
 
 h5{
@@ -76,6 +86,8 @@ margin-right: auto;
 
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
 color: white;
+font-family: DIN;
+font-size: 1.2rem;
 text-shadow: 2px 2px 8px black;
 width: 100%;
 }
@@ -94,6 +106,8 @@ padding-top:.1rem;
 
 #navbarDropdownMenuLink{
 color: white;
+font-size: 1.2rem;
+font-family: DIN;
 text-shadow: 2px 2px 8px black;
 width: 100%;
 }
@@ -155,6 +169,8 @@ border: 0;
 
 .nav-item .dropdown-menu.show{
 background-color: white;
+font-family: DIN;
+font-size: 1.2rem;
 padding: 2px;
 }
 
@@ -165,6 +181,7 @@ margin-right:1rem;
 
 .dropdown-item:hover {
 display: block;
+font-family: DIN;
 width: 100%;
 padding: .25rem 1.5rem;
 clear: both;
